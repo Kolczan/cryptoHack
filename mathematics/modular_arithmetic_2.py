@@ -7,5 +7,7 @@ def modular_arithmetic_2():
     z = x % y
 
     s = pow(7,16)%17
-    print("First number is: " + str(c) + ", second number is: " + str(z))
-    print(s)
+    print("3^17 % 17 daje reszte " + str(c) + ", 5^17 % 17 daje reszte " + str(z))
+    print("7^16 % 17 daje reszte " + str(s))
+    print("Małe twierdzenie Fermata, jak wykladnik jest o 1 mniejszy od  %mod, to reszta jest zawsze 1")
+    print("Zakladajac ze q,p są liczbami pierwszymi, czyli coś typu q^p%p --> q, q^p-1 % p --> 1")

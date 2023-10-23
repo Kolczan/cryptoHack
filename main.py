@@ -37,10 +37,10 @@ if __name__ == '__main__':
     # gcd.gcd()
     # egcd.egcd(26513, 32321)
     # modular_arithmetic_1.modular_arithmetic()
-    # modular_arithmetic_2.modular_arithmetic_2()
+    modular_arithmetic_2.modular_arithmetic_2()
     # modular_inverting.modular_inverting(3,13)
 
     ### DATA FORMATS
     # privacy_enhanced_mail.privacy_enhanced_mail()
     # certainly_not.certainly_not()
-    ssh_key.ssh_key()
+    # ssh_key.ssh_key()
