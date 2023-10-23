@@ -13,6 +13,9 @@ from mathematics import egcd
 from mathematics import modular_arithmetic_1
 from mathematics import modular_arithmetic_2
 from mathematics import modular_inverting
+from data_formats import privacy_enhanced_mail
+from data_formats import certainly_not
+from data_formats import ssh_key
 
 if __name__ == '__main__':
     ### ENCODING
@@ -36,3 +39,8 @@ if __name__ == '__main__':
     # modular_arithmetic_1.modular_arithmetic()
     # modular_arithmetic_2.modular_arithmetic_2()
     # modular_inverting.modular_inverting(3,13)
+
+    ### DATA FORMATS
+    # privacy_enhanced_mail.privacy_enhanced_mail()
+    # certainly_not.certainly_not()
+    ssh_key.ssh_key()
