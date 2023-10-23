@@ -18,6 +18,7 @@ from data_formats import certainly_not
 from data_formats import ssh_key
 
 if __name__ == '__main__':
+    print('done')
     ### ENCODING
     # myascii.myascii()
     # hexy.hexy()
@@ -37,7 +38,7 @@ if __name__ == '__main__':
     # gcd.gcd()
     # egcd.egcd(26513, 32321)
     # modular_arithmetic_1.modular_arithmetic()
-    modular_arithmetic_2.modular_arithmetic_2()
+    # modular_arithmetic_2.modular_arithmetic_2()
     # modular_inverting.modular_inverting(3,13)
 
     ### DATA FORMATS
