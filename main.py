@@ -16,9 +16,10 @@ from mathematics import modular_inverting
 from data_formats import privacy_enhanced_mail
 from data_formats import certainly_not
 from data_formats import ssh_key
+from data_formats import transparency
+from modular_math import quadratic_residues
 
 if __name__ == '__main__':
-    print('done')
     ### ENCODING
     # myascii.myascii()
     # hexy.hexy()
@@ -45,3 +46,16 @@ if __name__ == '__main__':
     # privacy_enhanced_mail.privacy_enhanced_mail()
     # certainly_not.certainly_not()
     # ssh_key.ssh_key()
+    transparency.transparency()
+
+    ###################################################
+    ################# MATHEMATICS #####################
+    ###################################################
+
+    ### MODULAR_MATH
+
+#    quadratic_residues.quadratic_residues()
+
+
+
+    print('done')
