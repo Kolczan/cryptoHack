@@ -1,16 +1,7 @@
 def quadratic_residues():
-    # print("DLA 14")
-    # for i in range(28):
-    #     if (i*i%29 == 14):
-    #         print(f"mam to {i}")
-    # print("DLA 6")
-    # for i in range(28):
-    #     if (i*i%29 == 6):
-    #         print(f"mam to {i}")
-    # print("DLA 11")
-    # for i in range(28):
-    #     if (i*i%29 == 11):
-    #         print(f"mam to {i}")
+
+    #We say that an integer x is a Quadratic Residue if there exists an a such that a2 = x mod p. If there is no such solution, then the integer is a Quadratic Non-Residue.
+    #If a^2 = x then (-a)^2 = x. So if x is a quadratic residue in some finite field, then there are always two solutions for a.
 
     ### Reszta kwadratowa modulo = quadratic residue
     p = 29

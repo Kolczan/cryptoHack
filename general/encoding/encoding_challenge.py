@@ -1,18 +1,18 @@
 from pwn import *
 import json
 import codecs
-def json_recv():
+def json_recv(r):
     line = r.recvline()
     return json.loads(line.decode())
-def json_send(hsh):
+def json_send(hsh,r):
     request = json.dumps(hsh).encode()
     r.sendline(request)
 
-r = remote('socket.cryptohack.org', 13377, level='debug')
 
 def encoding_challenge():
+    r = remote('socket.cryptohack.org', 13377, level='debug')
     while True:
-        received = json_recv()
+        received = json_recv(r)
 
         print("Received type: ")
         print(received["type"])
@@ -47,6 +47,6 @@ def encoding_challenge():
         to_send = {
             "decoded": decoded
         }
-        json_send(to_send)
+        json_send(to_send,r)
 
-    json_recv()
+    json_recv(r)

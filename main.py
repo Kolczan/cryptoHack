@@ -1,23 +1,27 @@
-from encoding import myascii
-from encoding import hexy
-from encoding import b64
-from encoding import bytesAndBigIntegers
-# from encoding import encoding_challenge
-from xor import xorstarter
-from xor import xor_properties
-from xor import favourite_byte
-from xor import you_either_know
-from xor import lemur_xor
-from mathematics import gcd
-from mathematics import egcd
-from mathematics import modular_arithmetic_1
-from mathematics import modular_arithmetic_2
-from mathematics import modular_inverting
-from data_formats import privacy_enhanced_mail
-from data_formats import certainly_not
-from data_formats import ssh_key
-from data_formats import transparency
-from modular_math import quadratic_residues
+from general.encoding import myascii
+from general.encoding import b64
+from general.encoding import bytesAndBigIntegers
+from general.encoding import encoding_challenge
+from general.encoding import hexy
+from general.xor import lemur_xor
+from general.xor import xorstarter
+from general.xor import xor_properties
+from general.xor import favourite_byte
+from general.xor import you_either_know
+from general.mathematics import gcd
+from general.mathematics import egcd
+from general.mathematics import modular_arithmetic_1
+from general.mathematics import modular_arithmetic_2
+from general.mathematics import modular_inverting
+from general.data_formats import privacy_enhanced_mail
+from general.data_formats import certainly_not
+from general.data_formats import ssh_key
+from general.data_formats import transparency
+
+from mathematics.modular_math import quadratic_residues
+from mathematics.modular_math import legendre_symbol
+from mathematics.modular_math import modular_square_root
+from mathematics.modular_math import chinese_remainder_theorem
 
 if __name__ == '__main__':
     ### ENCODING
@@ -26,7 +30,6 @@ if __name__ == '__main__':
     # b64.b64()
     # bytesAndBigIntegers.bytesandBigIntegers()
     # encoding_challenge.encoding_challenge()
-
 
     ### XOR
     # xorstarter.xorstarter()
@@ -46,7 +49,7 @@ if __name__ == '__main__':
     # privacy_enhanced_mail.privacy_enhanced_mail()
     # certainly_not.certainly_not()
     # ssh_key.ssh_key()
-    transparency.transparency()
+    # transparency.transparency()
 
     ###################################################
     ################# MATHEMATICS #####################
@@ -54,8 +57,8 @@ if __name__ == '__main__':
 
     ### MODULAR_MATH
 
-#    quadratic_residues.quadratic_residues()
-
-
-
+    #quadratic_residues.quadratic_residues()
+    #legendre_symbol.legendre_symbol()
+    # modular_square_root.modular_square_root()
+    chinese_remainder_theorem.chinese_remainder_theorem()
     print('done')
