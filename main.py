@@ -32,6 +32,11 @@ from mathematics.brainteasers import successive_powers
 from mathematics.brainteasers import adrien_signs
 from mathematics.brainteasers import broken_rsa
 
+from diffie_hellman import dh_starter_1
+from diffie_hellman import dh_starter_2
+from diffie_hellman import dh_starter_3
+from diffie_hellman import dh_starter_4
+
 if __name__ == '__main__':
     ### ENCODING
     # myascii.myascii()
@@ -80,7 +85,13 @@ if __name__ == '__main__':
 
     ### BRAINTEASERS
     # successive_powers.successive_powers()
-    adrien_signs.adrien_signs()
+    # adrien_signs.adrien_signs()
     # broken_rsa.broken_rsa()
 
+
+    ### DIFFIE_HELLMAN
+    # dh_starter_1
+    # dh_starter_2
+    # dh_starter_3
+    dh_starter_4
     print('done')
