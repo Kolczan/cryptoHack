@@ -22,6 +22,15 @@ from mathematics.modular_math import quadratic_residues
 from mathematics.modular_math import legendre_symbol
 from mathematics.modular_math import modular_square_root
 from mathematics.modular_math import chinese_remainder_theorem
+from mathematics.lattices import vectors
+from mathematics.lattices import size_and_basis
+from mathematics.lattices import gram_schmidt
+from mathematics.lattices import whats_a_lattice
+from mathematics.lattices import gaussian_reduction
+from mathematics.lattices import find_the_lattice
+from mathematics.brainteasers import successive_powers
+from mathematics.brainteasers import adrien_signs
+from mathematics.brainteasers import broken_rsa
 
 if __name__ == '__main__':
     ### ENCODING
@@ -56,9 +65,22 @@ if __name__ == '__main__':
     ###################################################
 
     ### MODULAR_MATH
-
-    #quadratic_residues.quadratic_residues()
-    #legendre_symbol.legendre_symbol()
+    # quadratic_residues.quadratic_residues()
+    # legendre_symbol.legendre_symbol()
     # modular_square_root.modular_square_root()
-    chinese_remainder_theorem.chinese_remainder_theorem()
+    # chinese_remainder_theorem.chinese_remainder_theorem()
+
+    ### LATTICES
+    # vectors.vectors()
+    # size_and_basis.size_and_basis()
+    # gram_schmidt.gram_schmidt()
+    # whats_a_lattice.whats_a_lattice()
+    # gaussian_reduction.gaussian_reduction()
+    # find_the_lattice.find_the_lattice() ### not finished
+
+    ### BRAINTEASERS
+    # successive_powers.successive_powers()
+    adrien_signs.adrien_signs()
+    # broken_rsa.broken_rsa()
+
     print('done')
