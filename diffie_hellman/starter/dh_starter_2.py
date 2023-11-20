@@ -10,9 +10,10 @@ def order_of_element(g):
     # jeśli nie znalazło się nic takiego to order g (czyli liczba elementów jego subgroup'y) jest równy orderowi Fp czyli `p`
     return p
 
-for g in range(p):
-    order = order_of_element(g)
-    # dla pierwszego elementu Fp, którego order jest równy p przerywamy pętle
-    if order == p:
-        print(g)
-        break
+def dh_starter_2():
+    for g in range(p):
+        order = order_of_element(g)
+        # dla pierwszego elementu Fp, którego order jest równy p przerywamy pętle
+        if order == p:
+            print(g)
+            break
