@@ -40,6 +40,9 @@ from diffie_hellman.starter import dh_starter_5
 from diffie_hellman.man_in_the_midel import parameter_injection
 from diffie_hellman.man_in_the_midel import export_grade
 from diffie_hellman.man_in_the_midel import static_client
+from diffie_hellman.group_theory import additive
+
+# from diffie_hellman.group_theory import test_connection
 
 if __name__ == '__main__':
     ### ENCODING
@@ -104,5 +107,14 @@ if __name__ == '__main__':
     # dh_starter_5.dh_starter_5()
     # parameter_injection.parameter_injection()
     # export_grade.export_grade()
-    static_client.static_client()
+    # static_client.static_client()
+    additive.additive()
+
+
+
+
+
+
+
     print('done')
+
