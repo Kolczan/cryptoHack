@@ -41,6 +41,8 @@ from diffie_hellman.man_in_the_midel import parameter_injection
 from diffie_hellman.man_in_the_midel import export_grade
 from diffie_hellman.man_in_the_midel import static_client
 from diffie_hellman.group_theory import additive
+# from diffie_hellman.group_theory import static_client2
+from diffie_hellman.misc import script_kiddie
 
 # from diffie_hellman.group_theory import test_connection
 
@@ -108,9 +110,9 @@ if __name__ == '__main__':
     # parameter_injection.parameter_injection()
     # export_grade.export_grade()
     # static_client.static_client()
-    additive.additive()
-
-
+    # additive.additive()
+    # static_client2.static_client2()
+    script_kiddie.script_kiddie()
 
 
 
