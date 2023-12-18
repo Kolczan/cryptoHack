@@ -128,7 +128,9 @@ if __name__ == '__main__':
     # from symmetric_ciphers.symmetric_starter import modes_of_operation_starter
     # from symmetric_ciphers.symmetric_starter import passwords_as_keys
     # from symmetric_ciphers.block_ciphers import ECB_CBC_WTF
-    # from symmetric_ciphers.block_ciphers import ecb_oracle
-    from symmetric_ciphers.block_ciphers import flipping_cookies
+    # from symmetric_ciphers.block_ciphers import ecb_oracle ## uwaga długie bruteforcowanie
+    # from symmetric_ciphers.block_ciphers import flipping_cookies
+    # from symmetric_ciphers.block_ciphers import lazy_CBC
+    from symmetric_ciphers.block_ciphers import triple_des
     print('done')
 
