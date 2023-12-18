@@ -118,6 +118,7 @@ if __name__ == '__main__':
     ###################################################
 
     ###################### przerobić na funkcje
+    ### HOW AES WORKS
     # from symmetric_ciphers.how_aes_works import keyed_permutations
     # from symmetric_ciphers.how_aes_works import resisting_bruteforce
     # from symmetric_ciphers.how_aes_works import structure_of_aes
@@ -125,12 +126,22 @@ if __name__ == '__main__':
     # from symmetric_ciphers.how_aes_works import confusion_through_substitution
     # from symmetric_ciphers.how_aes_works import diffusion_through_permutation
     # from symmetric_ciphers.how_aes_works import bring_it_all_together
+
+    ## SYMMETRIC STARTER
     # from symmetric_ciphers.symmetric_starter import modes_of_operation_starter
     # from symmetric_ciphers.symmetric_starter import passwords_as_keys
+
+    ## BLOCK CIPHERS
     # from symmetric_ciphers.block_ciphers import ECB_CBC_WTF
     # from symmetric_ciphers.block_ciphers import ecb_oracle ## uwaga długie bruteforcowanie
     # from symmetric_ciphers.block_ciphers import flipping_cookies
     # from symmetric_ciphers.block_ciphers import lazy_CBC
-    from symmetric_ciphers.block_ciphers import triple_des
+    # from symmetric_ciphers.block_ciphers import triple_des
+
+    ## STREAM CIPHERS
+    # from symmetric_ciphers.stream_ciphers import symmetry
+    # from symmetric_ciphers.stream_ciphers import bean_counter
+    # from symmetric_ciphers.stream_ciphers import ctrime
+    from symmetric_ciphers.stream_ciphers import stream_of_consciousness
     print('done')
 
