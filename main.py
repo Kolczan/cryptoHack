@@ -44,8 +44,6 @@ from diffie_hellman.group_theory import additive
 # from diffie_hellman.group_theory import static_client2
 from diffie_hellman.misc import script_kiddie
 
-# from diffie_hellman.group_theory import test_connection
-
 if __name__ == '__main__':
     ### ENCODING
     # myascii.myascii()
@@ -112,11 +110,25 @@ if __name__ == '__main__':
     # static_client.static_client()
     # additive.additive()
     # static_client2.static_client2()
-    script_kiddie.script_kiddie()
+    # script_kiddie.script_kiddie()
 
 
+    ###################################################
+    ############### SYMMETRIC CIPHERS #################
+    ###################################################
 
-
-
+    ###################### przerobić na funkcje
+    # from symmetric_ciphers.how_aes_works import keyed_permutations
+    # from symmetric_ciphers.how_aes_works import resisting_bruteforce
+    # from symmetric_ciphers.how_aes_works import structure_of_aes
+    # from symmetric_ciphers.how_aes_works import add_round_key
+    # from symmetric_ciphers.how_aes_works import confusion_through_substitution
+    # from symmetric_ciphers.how_aes_works import diffusion_through_permutation
+    # from symmetric_ciphers.how_aes_works import bring_it_all_together
+    # from symmetric_ciphers.symmetric_starter import modes_of_operation_starter
+    # from symmetric_ciphers.symmetric_starter import passwords_as_keys
+    # from symmetric_ciphers.block_ciphers import ECB_CBC_WTF
+    # from symmetric_ciphers.block_ciphers import ecb_oracle
+    from symmetric_ciphers.block_ciphers import flipping_cookies
     print('done')
 
