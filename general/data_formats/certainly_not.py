@@ -4,7 +4,7 @@ from cryptography.hazmat.backends import default_backend
 
 # def certainly_not():
 #     # Load your DER-encoded certificate
-#     with open('data_formats/2048b-rsa-example-cert.der', 'rb') as cert_file:
+#     with open('data_formats/2048b-rsa_1977-example-cert.der', 'rb') as cert_file:
 #         cert_data = cert_file.read()
 #
 #     # Parse the certificate
@@ -25,7 +25,7 @@ from Crypto.PublicKey import RSA
 # p (integer) – First factor of the RSA modulus
 # q (integer) – Second factor of the RSA modulus
 def certainly_not():
-    with open('data_formats/2048b-rsa-example-cert.der','rb') as f:
+    with open('data_formats/2048b-rsa_1977-example-cert.der','rb') as f:
         key = RSA.import_key(f.read())
     print(f"RSA certificate modulus: {key.n}")
     print(f"RSA public exponent: {key.e}")

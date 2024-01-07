@@ -142,6 +142,17 @@ if __name__ == '__main__':
     # from symmetric_ciphers.stream_ciphers import symmetry
     # from symmetric_ciphers.stream_ciphers import bean_counter
     # from symmetric_ciphers.stream_ciphers import ctrime
-    from symmetric_ciphers.stream_ciphers import stream_of_consciousness
-    print('done')
+    # from symmetric_ciphers.stream_ciphers import stream_of_consciousness
 
+    ###################################################
+    ###################### RSA ########################
+    ###################################################
+
+    # RSA STARTER
+    from rsa_1977.rsa_starter import rsa_starter_1
+    from rsa_1977.rsa_starter import rsa_starter_2
+    from rsa_1977.rsa_starter import rsa_starter_3
+    from rsa_1977.rsa_starter import rsa_starter_4
+    from rsa_1977.rsa_starter import rsa_starter_5
+    from rsa_1977.rsa_starter import rsa_starter_6
+    print('done')
