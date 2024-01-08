@@ -149,10 +149,37 @@ if __name__ == '__main__':
     ###################################################
 
     # RSA STARTER
-    from rsa_1977.rsa_starter import rsa_starter_1
-    from rsa_1977.rsa_starter import rsa_starter_2
-    from rsa_1977.rsa_starter import rsa_starter_3
-    from rsa_1977.rsa_starter import rsa_starter_4
-    from rsa_1977.rsa_starter import rsa_starter_5
-    from rsa_1977.rsa_starter import rsa_starter_6
+    # from rsa_1977.rsa_starter import rsa_starter_1
+    # from rsa_1977.rsa_starter import rsa_starter_2
+    # from rsa_1977.rsa_starter import rsa_starter_3
+    # from rsa_1977.rsa_starter import rsa_starter_4
+    # from rsa_1977.rsa_starter import rsa_starter_5
+    # from rsa_1977.rsa_starter import rsa_starter_6
+
+    # PRIMES PART I
+    # from rsa_1977.primes_part_1 import factoring
+    # from rsa_1977.primes_part_1 import inferius_prime
+    # from rsa_1977.primes_part_1 import monoprime
+    # from rsa_1977.primes_part_1 import square_eyes
+    # from rsa_1977.primes_part_1 import manyprimes
+
+    # PUBLIC EXPONENT
+    # from rsa_1977.public_exponent import salty
+    # from rsa_1977.public_exponent import modulus_inutilis
+    # from rsa_1977.public_exponent import everything_is_big
+    # from rsa_1977.public_exponent import crossed_wires
+    # from rsa_1977.public_exponent import everything_is_still_big
+    from rsa_1977.public_exponent import endless_emails
+
+    # SIGNATURES PART I
+    # from rsa_1977.signatures_part_1 import signing_server
+    # from rsa_1977.signatures_part_1 import lets_decrypt
+    # from rsa_1977.signatures_part_1 import blinding_light
+
+    # PRIMES PART II
+    # from rsa_1977.primes_part_2 import infinite_descent
+    # from rsa_1977.primes_part_2 import marins_secrets
+    # from rsa_1977.primes_part_2 import fast_primes ### cos dlugo dziala
+    # from rsa_1977.primes_part_2 import ron_was_wrong
+    # from rsa_1977.primes_part_2 import rsa_backdoor_viability
     print('done')
